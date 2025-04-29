@@ -3,8 +3,8 @@ import requests
 from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QTextEdit, QLineEdit
 
-API_KEY = 'API-KEY'
-BASE_URL = 'https://api.openweathermap.org/data/2.5/weather?q=Tartu,EE&appid=YOURAPIKEY&units=metric'
+API_KEY = '9cf865e60609b51b31f7385ea85594ff'
+BASE_URL = 'https://api.openweathermap.org/data/2.5/weather?q=Tartu,EE&appid=9cf865e60609b51b31f7385ea85594ff&units=metric'
 
 
 class WeatherThread(QThread):
